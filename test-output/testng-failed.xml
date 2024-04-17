@@ -5,8 +5,12 @@
     <classes>
       <class name="JaintTravels.testCases.LoginPageTest">
         <methods>
+          <include name="Online_Type_Booking"/>
           <include name="setup"/>
+          <include name="Walkin_Type_Booking"/>
           <include name="Branch_Type_Booking"/>
+          <include name="login"/>
+          <include name="Offline_Type_Booking"/>
         </methods>
       </class> <!-- JaintTravels.testCases.LoginPageTest -->
     </classes>

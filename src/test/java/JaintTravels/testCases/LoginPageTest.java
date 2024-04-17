@@ -1,5 +1,6 @@
 package JaintTravels.testCases;
 
+
 import org.testng.annotations.Test;
 
 import Jaintravels.pageObjects.BookingPage;
@@ -9,16 +10,19 @@ public class LoginPageTest extends baseClass{
 	
 	
 	
-	@Test(priority=0)
+
+	@Test
 	public void login() {
   	  driver.get(baseurl);
   	  LoginPage lp = new LoginPage(driver);
   	  lp.Login("jpsb-qa1.techmango", "techmango@123");
+  	
   	  lp.Book();
   	  }
 
-	@Test(priority=1)
-	public void Walkin_Type_Booking(){
+	@Test(dependsOnMethods = {"login"})
+	public void Walkin_Type_Booking()
+	{
 		BookingPage bp = new BookingPage(driver);
 		bp.clickSeat();
 		bp.booking_Type_Walkin();
@@ -26,7 +30,7 @@ public class LoginPageTest extends baseClass{
 		driver.switchTo().alert().accept();
 	}
 	
-	//@Test(priority=1)
+	@Test(priority=1)
 	public void Online_Type_Booking() {
 		BookingPage bp = new BookingPage(driver);
 		bp.clickSeat();
@@ -35,7 +39,7 @@ public class LoginPageTest extends baseClass{
         driver.switchTo().alert().accept();
 	}
 	
-	//@Test(priority=1)
+	@Test(priority=1)
 	public void Offline_Type_Booking() {
 		BookingPage bp = new BookingPage(driver);
 		bp.clickSeat();
@@ -44,7 +48,7 @@ public class LoginPageTest extends baseClass{
         driver.switchTo().alert().accept();
 	}
 	
-//	@Test(priority=1)
+	@Test(priority=1)
 	public void Branch_Type_Booking() {
 		BookingPage bp = new BookingPage(driver);
 		bp.clickSeat();

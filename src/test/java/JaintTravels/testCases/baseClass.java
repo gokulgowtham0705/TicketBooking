@@ -1,6 +1,9 @@
 package JaintTravels.testCases;
 
 import java.time.Duration;
+//import java.util.logging.Logger;
+import java.util.logging.Logger;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
@@ -18,6 +21,8 @@ public class baseClass {
        driver = new ChromeDriver();
        driver.manage().window().maximize();
        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+       Logger logger = Logger.getLogger(baseClass.class.getName());
+       logger.info("Application Launching");
        
 	}
 	
