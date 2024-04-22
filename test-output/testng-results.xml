@@ -1,25 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-17T11:25:35 IST" name="WalkinBooking" finished-at="2024-04-17T11:26:07 IST" duration-ms="31707">
+  <suite started-at="2024-04-18T12:28:34 IST" name="Booking and Types" finished-at="2024-04-18T12:31:00 IST" duration-ms="145807">
     <groups>
     </groups>
-    <test started-at="2024-04-17T11:25:35 IST" name="Test" finished-at="2024-04-17T11:26:07 IST" duration-ms="31707">
+    <test started-at="2024-04-18T12:28:34 IST" name="WalkIn_Booking_Test" finished-at="2024-04-18T12:29:22 IST" duration-ms="48391">
       <class name="JaintTravels.testCases.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:JaintTravels.testCases.LoginPageTest@4a3329b9]" started-at="2024-04-17T11:25:35 IST" name="setup" finished-at="2024-04-17T11:25:38 IST" duration-ms="2307" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:JaintTravels.testCases.LoginPageTest@160ac7fb]" started-at="2024-04-18T12:28:34 IST" name="setup" finished-at="2024-04-18T12:28:53 IST" duration-ms="19212" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login()[pri:0, instance:JaintTravels.testCases.LoginPageTest@4a3329b9]" started-at="2024-04-17T11:25:38 IST" name="login" finished-at="2024-04-17T11:26:03 IST" duration-ms="25453" status="PASS">
+        <test-method signature="login()[pri:0, instance:JaintTravels.testCases.LoginPageTest@160ac7fb]" started-at="2024-04-18T12:28:53 IST" name="login" finished-at="2024-04-18T12:29:19 IST" duration-ms="26260" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="Walkin_Type_Booking()[pri:0, instance:JaintTravels.testCases.LoginPageTest@4a3329b9]" started-at="2024-04-17T11:26:03 IST" name="Walkin_Type_Booking" finished-at="2024-04-17T11:26:07 IST" depends-on-methods="JaintTravels.testCases.LoginPageTest.login" duration-ms="3867" status="PASS">
+        <test-method signature="Walkin_Type_Booking()[pri:0, instance:JaintTravels.testCases.LoginPageTest@160ac7fb]" started-at="2024-04-18T12:29:19 IST" name="Walkin_Type_Booking" finished-at="2024-04-18T12:29:22 IST" depends-on-methods="JaintTravels.testCases.LoginPageTest.login" duration-ms="2391" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Walkin_Type_Booking -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:JaintTravels.testCases.LoginPageTest@160ac7fb]" started-at="2024-04-18T12:29:22 IST" name="teardown" finished-at="2024-04-18T12:29:22 IST" duration-ms="443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
       </class> <!-- JaintTravels.testCases.LoginPageTest -->
-    </test> <!-- Test -->
-  </suite> <!-- WalkinBooking -->
+    </test> <!-- WalkIn_Booking_Test -->
+    <test started-at="2024-04-18T12:29:22 IST" name="Online_Booking_Test" finished-at="2024-04-18T12:29:53 IST" duration-ms="30842">
+      <class name="JaintTravels.testCases.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:JaintTravels.testCases.LoginPageTest@4baf352a]" started-at="2024-04-18T12:29:22 IST" name="setup" finished-at="2024-04-18T12:29:24 IST" duration-ms="1693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:JaintTravels.testCases.LoginPageTest@4baf352a]" started-at="2024-04-18T12:29:24 IST" name="login" finished-at="2024-04-18T12:29:50 IST" duration-ms="26212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="Online_Type_Booking()[pri:0, instance:JaintTravels.testCases.LoginPageTest@4baf352a]" started-at="2024-04-18T12:29:50 IST" name="Online_Type_Booking" finished-at="2024-04-18T12:29:53 IST" depends-on-methods="JaintTravels.testCases.LoginPageTest.login" duration-ms="2604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Online_Type_Booking -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:JaintTravels.testCases.LoginPageTest@4baf352a]" started-at="2024-04-18T12:29:53 IST" name="teardown" finished-at="2024-04-18T12:29:53 IST" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- JaintTravels.testCases.LoginPageTest -->
+    </test> <!-- Online_Booking_Test -->
+    <test started-at="2024-04-18T12:29:53 IST" name="Offline_Booking_Test" finished-at="2024-04-18T12:30:28 IST" duration-ms="34498">
+      <class name="JaintTravels.testCases.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:JaintTravels.testCases.LoginPageTest@22d6f11]" started-at="2024-04-18T12:29:53 IST" name="setup" finished-at="2024-04-18T12:29:54 IST" duration-ms="1232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:JaintTravels.testCases.LoginPageTest@22d6f11]" started-at="2024-04-18T12:29:54 IST" name="login" finished-at="2024-04-18T12:30:24 IST" duration-ms="29273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="Offline_Type_Booking()[pri:0, instance:JaintTravels.testCases.LoginPageTest@22d6f11]" started-at="2024-04-18T12:30:24 IST" name="Offline_Type_Booking" finished-at="2024-04-18T12:30:27 IST" depends-on-methods="JaintTravels.testCases.LoginPageTest.login" duration-ms="3614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Offline_Type_Booking -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:JaintTravels.testCases.LoginPageTest@22d6f11]" started-at="2024-04-18T12:30:27 IST" name="teardown" finished-at="2024-04-18T12:30:28 IST" duration-ms="355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- JaintTravels.testCases.LoginPageTest -->
+    </test> <!-- Offline_Booking_Test -->
+    <test started-at="2024-04-18T12:30:28 IST" name="Branch_Booking_Test" finished-at="2024-04-18T12:31:00 IST" duration-ms="31974">
+      <class name="JaintTravels.testCases.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:JaintTravels.testCases.LoginPageTest@2dbe250d]" started-at="2024-04-18T12:30:28 IST" name="setup" finished-at="2024-04-18T12:30:29 IST" duration-ms="1501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:JaintTravels.testCases.LoginPageTest@2dbe250d]" started-at="2024-04-18T12:30:29 IST" name="login" finished-at="2024-04-18T12:30:56 IST" duration-ms="26894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="Branch_Type_Booking()[pri:0, instance:JaintTravels.testCases.LoginPageTest@2dbe250d]" started-at="2024-04-18T12:30:56 IST" name="Branch_Type_Booking" finished-at="2024-04-18T12:30:59 IST" depends-on-methods="JaintTravels.testCases.LoginPageTest.login" duration-ms="3264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Branch_Type_Booking -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:JaintTravels.testCases.LoginPageTest@2dbe250d]" started-at="2024-04-18T12:30:59 IST" name="teardown" finished-at="2024-04-18T12:31:00 IST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- JaintTravels.testCases.LoginPageTest -->
+    </test> <!-- Branch_Booking_Test -->
+  </suite> <!-- Booking and Types -->
 </testng-results>
