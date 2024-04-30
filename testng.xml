@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Booking and Types">
-  <test thread-count="5" name="WalkIn_Booking_Test">
+  <test  name="WalkIn_Booking_Test">
     <classes>
       <class name="JaintTravels.testCases.LoginPageTest">
         <methods>
@@ -10,37 +10,37 @@
         </methods>
         </class>
     </classes>
-  </test> <!-- Test -->
-  <test thread-count="5" name="Online_Booking_Test">
+  </test> 
+   <test name="Online_Booking_Test">
     <classes>
       <class name="JaintTravels.testCases.LoginPageTest">
         <methods>
-        <include name ="Online_Type_Booking"/>
-        <include name ="login"/>
+        <include  name ="Online_Type_Booking"/>
+        <include  name ="login"/>
         </methods>
         </class>
     </classes>
-  </test> <!-- Test -->
-  <test thread-count="5" name="Offline_Booking_Test">
+  </test > 
+  <test  name="Offline_Booking_Test">
     <classes>
       <class name="JaintTravels.testCases.LoginPageTest">
         <methods>
-        <include name ="Offline_Type_Booking"/>
-        <include name ="login"/>
+        <include  name ="Offline_Type_Booking"/>
+        <include  name ="login"/>
         </methods>
         </class>
     </classes>
-  </test> <!-- Test -->
+  </test> 
   <test thread-count="5" name="Branch_Booking_Test">
     <classes>
       <class name="JaintTravels.testCases.LoginPageTest">
         <methods>
-        <include name ="Branch_Type_Booking"/>
-        <include name ="login"/>
+        <include  name ="Branch_Type_Booking"/>
+        <include  name ="login"/>
         </methods>
         </class>
     </classes>
-  </test> <!-- Test -->
+ </test>
 </suite> <!-- Suite -->
 
 

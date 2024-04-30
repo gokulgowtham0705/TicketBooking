@@ -1,8 +1,8 @@
 package JaintTravels.testCases;
 
 import java.time.Duration;
-//import java.util.logging.Logger;
-import java.util.logging.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -18,6 +18,7 @@ public class baseClass {
 	public String baseurl = "https://jpsb-qa1.ticketsimply.co.in/account";
 	public static WebDriver driver;
 	Logger logger;
+	
 
 	
 	@BeforeTest  
@@ -26,7 +27,7 @@ public class baseClass {
        driver = new ChromeDriver();
        driver.manage().window().maximize();
        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-       logger = Logger.getLogger(baseClass.class.getName());
+       logger = LogManager.getLogger(baseClass.class.getName());
        logger.info("Application Launching");
        
 	}
@@ -34,7 +35,7 @@ public class baseClass {
 	@AfterTest
 	public void teardown() 
 	{
-		driver.quit();
+		driver.close();;
 		
 	}
 	

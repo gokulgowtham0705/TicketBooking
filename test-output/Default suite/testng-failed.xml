@@ -11,6 +11,7 @@
           <include name="Branch_Type_Booking"/>
           <include name="login"/>
           <include name="Offline_Type_Booking"/>
+          <include name="teardown"/>
         </methods>
       </class> <!-- JaintTravels.testCases.LoginPageTest -->
     </classes>

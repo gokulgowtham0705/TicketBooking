@@ -49,9 +49,17 @@ WebDriver ldriver;
     @FindBy(xpath="//*[@id=\"searchbus_on_behalf_user_chosen\"]/div/ul/li")
     List<WebElement> Branch_User_List;
     
-    @FindBy(xpath="//a[@class='chosen-single chosen-default']//following::div[1]/b")
+    //a[@class='chosen-single chosen-default']//following::div[1]/b
+    @FindBy(xpath="//*[@id=\"searchbus_on_behalf_online_agent_chosen\"]/a/div/b")
     WebElement OnlineAgent_dropdown_arrow;
-
+    
+    @FindBy(xpath="//*[@id=\"searchbus_on_behalf_chosen\"]/a/div/b")
+    WebElement OfflineAgent_dropdown_arrow;
+    
+ 
+    @FindBy(xpath="//*[@id=\"searchbus_on_behalf_branch_chosen\"]/a/div/b")
+    WebElement Branch_dropdown_arrow;
+    
     @FindAll( {@FindBy(xpath = "//*[@id=\"searchbus_on_behalf_online_agent_chosen\"]/div/ul/li")})
     List<WebElement> OnlineAgent_dropdown_option;
     
@@ -68,6 +76,10 @@ WebDriver ldriver;
     
     @FindBy(xpath="//*[@id='search_submit_btn_new']")
     WebElement Confirm_Booking_Button;
+    
+    
+    @FindBy(xpath="/html/body/div[15]/div[3]/div/button[2]")
+    WebElement confirm_ticket;
     
     
     public void clickSeat() {
@@ -90,14 +102,14 @@ WebDriver ldriver;
    
    public void booking_Type_Offline_Agent(int offlineagentNo) {
 	   OfflineAgent.click();
-	   OnlineAgent_dropdown_arrow.click();
+	   OfflineAgent_dropdown_arrow.click();
 	   System.out.println( "The offline agent list is " + OfflineAgent_dropdown_option.size());
 	   OfflineAgent_dropdown_option.get(offlineagentNo).click();
    }
    
    public void booking_Type_Branch_Booking(int bno, int uno) {
 	   Branch.click();
-	   OnlineAgent_dropdown_arrow.click();
+	   Branch_dropdown_arrow.click();
 	   System.out.println( "The branch list is " + Branch_List.size());
 	   Branch_List.get(bno).click();
 	   Branch_User_Dropdown.click();
@@ -112,6 +124,10 @@ WebDriver ldriver;
 	   Confirm_Booking_Button.click();
 	   
 	   
+	   
+   }
+   public void confirm_ticket() {
+	   confirm_ticket.click();
    }
     
    

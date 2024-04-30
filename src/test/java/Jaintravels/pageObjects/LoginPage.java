@@ -25,7 +25,7 @@ public class LoginPage {
     @FindBy(id="login_button")
     WebElement login_button;
     
-    @FindBy(id="available_3")
+    @FindBy(id="available_2")
 	WebElement bookButton;
     
     @FindBy(id="search_widget_form_submit")
