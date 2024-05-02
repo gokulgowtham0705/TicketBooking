@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="8" passed="4" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-02T11:32:29 IST" name="Booking and Types" finished-at="2024-05-02T11:34:33 IST" duration-ms="123871">
+  <suite started-at="2024-05-02T13:23:40 IST" name="Booking and Types" finished-at="2024-05-02T13:26:00 IST" duration-ms="139689">
     <groups>
     </groups>
-    <test started-at="2024-05-02T11:32:29 IST" name="WalkIn_Booking_Test" finished-at="2024-05-02T11:33:01 IST" duration-ms="31847">
+    <test started-at="2024-05-02T13:23:40 IST" name="WalkIn_Booking_Test" finished-at="2024-05-02T13:24:27 IST" duration-ms="46348">
       <class name="JaintTravels.testCases.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:JaintTravels.testCases.LoginPageTest@5bf22f18]" started-at="2024-05-02T11:32:29 IST" name="setup" finished-at="2024-05-02T11:32:31 IST" duration-ms="2236" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:JaintTravels.testCases.LoginPageTest@267f474e]" started-at="2024-05-02T13:23:41 IST" name="setup" finished-at="2024-05-02T13:23:53 IST" duration-ms="12171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login()[pri:0, instance:JaintTravels.testCases.LoginPageTest@5bf22f18]" started-at="2024-05-02T11:32:31 IST" name="login" finished-at="2024-05-02T11:32:59 IST" duration-ms="28038" status="PASS">
+        <test-method signature="login()[pri:0, instance:JaintTravels.testCases.LoginPageTest@267f474e]" started-at="2024-05-02T13:23:53 IST" name="login" finished-at="2024-05-02T13:24:25 IST" duration-ms="31923" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="Walkin_Type_Booking()[pri:0, instance:JaintTravels.testCases.LoginPageTest@5bf22f18]" started-at="2024-05-02T11:32:59 IST" name="Walkin_Type_Booking" finished-at="2024-05-02T11:33:00 IST" depends-on-methods="JaintTravels.testCases.LoginPageTest.login" duration-ms="1336" status="FAIL">
+        <test-method signature="Walkin_Type_Booking()[pri:0, instance:JaintTravels.testCases.LoginPageTest@267f474e]" started-at="2024-05-02T13:24:25 IST" name="Walkin_Type_Booking" finished-at="2024-05-02T13:24:26 IST" depends-on-methods="JaintTravels.testCases.LoginPageTest.login" duration-ms="1157" status="FAIL">
           <exception class="java.lang.IndexOutOfBoundsException">
             <message>
               <![CDATA[Index 2 out of bounds for length 2]]>
@@ -32,7 +32,7 @@ at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAc
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:39)
-at jdk.proxy2/jdk.proxy2.$Proxy28.get(Unknown Source)
+at jdk.proxy2/jdk.proxy2.$Proxy29.get(Unknown Source)
 at Jaintravels.pageObjects.BookingPage.clickSeat(BookingPage.java:87)
 at JaintTravels.testCases.LoginPageTest.Walkin_Type_Booking(LoginPageTest.java:28)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -69,23 +69,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Walkin_Type_Booking -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:JaintTravels.testCases.LoginPageTest@5bf22f18]" started-at="2024-05-02T11:33:00 IST" name="teardown" finished-at="2024-05-02T11:33:01 IST" duration-ms="182" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:JaintTravels.testCases.LoginPageTest@267f474e]" started-at="2024-05-02T13:24:26 IST" name="teardown" finished-at="2024-05-02T13:24:27 IST" duration-ms="309" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- JaintTravels.testCases.LoginPageTest -->
     </test> <!-- WalkIn_Booking_Test -->
-    <test started-at="2024-05-02T11:33:01 IST" name="Online_Booking_Test" finished-at="2024-05-02T11:33:31 IST" duration-ms="30373">
+    <test started-at="2024-05-02T13:24:27 IST" name="Online_Booking_Test" finished-at="2024-05-02T13:24:58 IST" duration-ms="30988">
       <class name="JaintTravels.testCases.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:JaintTravels.testCases.LoginPageTest@756cf158]" started-at="2024-05-02T11:33:01 IST" name="setup" finished-at="2024-05-02T11:33:02 IST" duration-ms="1266" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:JaintTravels.testCases.LoginPageTest@3f2ef586]" started-at="2024-05-02T13:24:27 IST" name="setup" finished-at="2024-05-02T13:24:29 IST" duration-ms="1656" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login()[pri:0, instance:JaintTravels.testCases.LoginPageTest@756cf158]" started-at="2024-05-02T11:33:02 IST" name="login" finished-at="2024-05-02T11:33:29 IST" duration-ms="27091" status="PASS">
+        <test-method signature="login()[pri:0, instance:JaintTravels.testCases.LoginPageTest@3f2ef586]" started-at="2024-05-02T13:24:29 IST" name="login" finished-at="2024-05-02T13:24:57 IST" duration-ms="27960" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="Online_Type_Booking()[pri:0, instance:JaintTravels.testCases.LoginPageTest@756cf158]" started-at="2024-05-02T11:33:29 IST" name="Online_Type_Booking" finished-at="2024-05-02T11:33:31 IST" depends-on-methods="JaintTravels.testCases.LoginPageTest.login" duration-ms="1839" status="FAIL">
+        <test-method signature="Online_Type_Booking()[pri:0, instance:JaintTravels.testCases.LoginPageTest@3f2ef586]" started-at="2024-05-02T13:24:57 IST" name="Online_Type_Booking" finished-at="2024-05-02T13:24:58 IST" depends-on-methods="JaintTravels.testCases.LoginPageTest.login" duration-ms="1101" status="FAIL">
           <exception class="java.lang.IndexOutOfBoundsException">
             <message>
               <![CDATA[Index 2 out of bounds for length 2]]>
@@ -102,7 +102,7 @@ at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAc
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:39)
-at jdk.proxy2/jdk.proxy2.$Proxy28.get(Unknown Source)
+at jdk.proxy2/jdk.proxy2.$Proxy29.get(Unknown Source)
 at Jaintravels.pageObjects.BookingPage.clickSeat(BookingPage.java:87)
 at JaintTravels.testCases.LoginPageTest.Online_Type_Booking(LoginPageTest.java:41)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -139,23 +139,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Online_Type_Booking -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:JaintTravels.testCases.LoginPageTest@756cf158]" started-at="2024-05-02T11:33:31 IST" name="teardown" finished-at="2024-05-02T11:33:31 IST" duration-ms="166" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:JaintTravels.testCases.LoginPageTest@3f2ef586]" started-at="2024-05-02T13:24:58 IST" name="teardown" finished-at="2024-05-02T13:24:58 IST" duration-ms="259" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- JaintTravels.testCases.LoginPageTest -->
     </test> <!-- Online_Booking_Test -->
-    <test started-at="2024-05-02T11:33:31 IST" name="Offline_Booking_Test" finished-at="2024-05-02T11:34:02 IST" duration-ms="31199">
+    <test started-at="2024-05-02T13:24:58 IST" name="Offline_Booking_Test" finished-at="2024-05-02T13:25:29 IST" duration-ms="30548">
       <class name="JaintTravels.testCases.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:JaintTravels.testCases.LoginPageTest@751d3241]" started-at="2024-05-02T11:33:31 IST" name="setup" finished-at="2024-05-02T11:33:32 IST" duration-ms="1267" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:JaintTravels.testCases.LoginPageTest@76c7beb3]" started-at="2024-05-02T13:24:58 IST" name="setup" finished-at="2024-05-02T13:25:00 IST" duration-ms="1147" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login()[pri:0, instance:JaintTravels.testCases.LoginPageTest@751d3241]" started-at="2024-05-02T11:33:32 IST" name="login" finished-at="2024-05-02T11:34:01 IST" duration-ms="28480" status="PASS">
+        <test-method signature="login()[pri:0, instance:JaintTravels.testCases.LoginPageTest@76c7beb3]" started-at="2024-05-02T13:25:00 IST" name="login" finished-at="2024-05-02T13:25:27 IST" duration-ms="27938" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="Offline_Type_Booking()[pri:0, instance:JaintTravels.testCases.LoginPageTest@751d3241]" started-at="2024-05-02T11:34:01 IST" name="Offline_Type_Booking" finished-at="2024-05-02T11:34:02 IST" depends-on-methods="JaintTravels.testCases.LoginPageTest.login" duration-ms="1273" status="FAIL">
+        <test-method signature="Offline_Type_Booking()[pri:0, instance:JaintTravels.testCases.LoginPageTest@76c7beb3]" started-at="2024-05-02T13:25:27 IST" name="Offline_Type_Booking" finished-at="2024-05-02T13:25:29 IST" depends-on-methods="JaintTravels.testCases.LoginPageTest.login" duration-ms="1229" status="FAIL">
           <exception class="java.lang.IndexOutOfBoundsException">
             <message>
               <![CDATA[Index 2 out of bounds for length 2]]>
@@ -172,7 +172,7 @@ at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAc
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:39)
-at jdk.proxy2/jdk.proxy2.$Proxy28.get(Unknown Source)
+at jdk.proxy2/jdk.proxy2.$Proxy29.get(Unknown Source)
 at Jaintravels.pageObjects.BookingPage.clickSeat(BookingPage.java:87)
 at JaintTravels.testCases.LoginPageTest.Offline_Type_Booking(LoginPageTest.java:53)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -209,23 +209,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Offline_Type_Booking -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:JaintTravels.testCases.LoginPageTest@751d3241]" started-at="2024-05-02T11:34:02 IST" name="teardown" finished-at="2024-05-02T11:34:02 IST" duration-ms="155" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:JaintTravels.testCases.LoginPageTest@76c7beb3]" started-at="2024-05-02T13:25:29 IST" name="teardown" finished-at="2024-05-02T13:25:29 IST" duration-ms="217" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- JaintTravels.testCases.LoginPageTest -->
     </test> <!-- Offline_Booking_Test -->
-    <test started-at="2024-05-02T11:34:02 IST" name="Branch_Booking_Test" finished-at="2024-05-02T11:34:33 IST" duration-ms="30405">
+    <test started-at="2024-05-02T13:25:29 IST" name="Branch_Booking_Test" finished-at="2024-05-02T13:26:00 IST" duration-ms="30819">
       <class name="JaintTravels.testCases.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:JaintTravels.testCases.LoginPageTest@30ea8c23]" started-at="2024-05-02T11:34:02 IST" name="setup" finished-at="2024-05-02T11:34:03 IST" duration-ms="1251" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:JaintTravels.testCases.LoginPageTest@7b139eab]" started-at="2024-05-02T13:25:29 IST" name="setup" finished-at="2024-05-02T13:25:31 IST" duration-ms="1575" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login()[pri:0, instance:JaintTravels.testCases.LoginPageTest@30ea8c23]" started-at="2024-05-02T11:34:03 IST" name="login" finished-at="2024-05-02T11:34:31 IST" duration-ms="27885" status="PASS">
+        <test-method signature="login()[pri:0, instance:JaintTravels.testCases.LoginPageTest@7b139eab]" started-at="2024-05-02T13:25:31 IST" name="login" finished-at="2024-05-02T13:25:59 IST" duration-ms="27915" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="Branch_Type_Booking()[pri:0, instance:JaintTravels.testCases.LoginPageTest@30ea8c23]" started-at="2024-05-02T11:34:31 IST" name="Branch_Type_Booking" finished-at="2024-05-02T11:34:32 IST" depends-on-methods="JaintTravels.testCases.LoginPageTest.login" duration-ms="1082" status="FAIL">
+        <test-method signature="Branch_Type_Booking()[pri:0, instance:JaintTravels.testCases.LoginPageTest@7b139eab]" started-at="2024-05-02T13:25:59 IST" name="Branch_Type_Booking" finished-at="2024-05-02T13:26:00 IST" depends-on-methods="JaintTravels.testCases.LoginPageTest.login" duration-ms="1141" status="FAIL">
           <exception class="java.lang.IndexOutOfBoundsException">
             <message>
               <![CDATA[Index 2 out of bounds for length 2]]>
@@ -242,7 +242,7 @@ at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAc
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:39)
-at jdk.proxy2/jdk.proxy2.$Proxy28.get(Unknown Source)
+at jdk.proxy2/jdk.proxy2.$Proxy29.get(Unknown Source)
 at Jaintravels.pageObjects.BookingPage.clickSeat(BookingPage.java:87)
 at JaintTravels.testCases.LoginPageTest.Branch_Type_Booking(LoginPageTest.java:65)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -279,7 +279,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Branch_Type_Booking -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:JaintTravels.testCases.LoginPageTest@30ea8c23]" started-at="2024-05-02T11:34:32 IST" name="teardown" finished-at="2024-05-02T11:34:33 IST" duration-ms="180" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:JaintTravels.testCases.LoginPageTest@7b139eab]" started-at="2024-05-02T13:26:00 IST" name="teardown" finished-at="2024-05-02T13:26:00 IST" duration-ms="175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

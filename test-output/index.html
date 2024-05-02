@@ -180,7 +180,7 @@
 	at java.base/java.util.Objects.checkIndex(Objects.java:361)
 	at java.base/java.util.ArrayList.get(ArrayList.java:427)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy28.get(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy29.get(Unknown Source)
 	at Jaintravels.pageObjects.BookingPage.clickSeat(BookingPage.java:87)
 	at JaintTravels.testCases.LoginPageTest.Branch_Type_Booking(LoginPageTest.java:65)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
@@ -200,7 +200,7 @@
 	at java.base/java.util.Objects.checkIndex(Objects.java:361)
 	at java.base/java.util.ArrayList.get(ArrayList.java:427)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy28.get(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy29.get(Unknown Source)
 	at Jaintravels.pageObjects.BookingPage.clickSeat(BookingPage.java:87)
 	at JaintTravels.testCases.LoginPageTest.Offline_Type_Booking(LoginPageTest.java:53)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
@@ -220,7 +220,7 @@
 	at java.base/java.util.Objects.checkIndex(Objects.java:361)
 	at java.base/java.util.ArrayList.get(ArrayList.java:427)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy28.get(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy29.get(Unknown Source)
 	at Jaintravels.pageObjects.BookingPage.clickSeat(BookingPage.java:87)
 	at JaintTravels.testCases.LoginPageTest.Online_Type_Booking(LoginPageTest.java:41)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
@@ -240,7 +240,7 @@
 	at java.base/java.util.Objects.checkIndex(Objects.java:361)
 	at java.base/java.util.ArrayList.get(ArrayList.java:427)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy28.get(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy29.get(Unknown Source)
 	at Jaintravels.pageObjects.BookingPage.clickSeat(BookingPage.java:87)
 	at JaintTravels.testCases.LoginPageTest.Walkin_Type_Booking(LoginPageTest.java:28)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
@@ -296,6 +296,9 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Booking and Types&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utilities.ExtentReport&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;WalkIn_Booking_Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;JaintTravels.testCases.LoginPageTest&quot;&gt;
@@ -386,40 +389,40 @@ data.addRows(8);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'login')
 data.setCell(0, 2, 'JaintTravels.testCases.LoginPageTest')
-data.setCell(0, 3, 28480);
+data.setCell(0, 3, 31923);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'login')
 data.setCell(1, 2, 'JaintTravels.testCases.LoginPageTest')
-data.setCell(1, 3, 28038);
+data.setCell(1, 3, 27960);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'login')
 data.setCell(2, 2, 'JaintTravels.testCases.LoginPageTest')
-data.setCell(2, 3, 27885);
+data.setCell(2, 3, 27938);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'login')
 data.setCell(3, 2, 'JaintTravels.testCases.LoginPageTest')
-data.setCell(3, 3, 27091);
+data.setCell(3, 3, 27915);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'Online_Type_Booking')
+data.setCell(4, 1, 'Offline_Type_Booking')
 data.setCell(4, 2, 'JaintTravels.testCases.LoginPageTest')
-data.setCell(4, 3, 1839);
+data.setCell(4, 3, 1229);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'Walkin_Type_Booking')
 data.setCell(5, 2, 'JaintTravels.testCases.LoginPageTest')
-data.setCell(5, 3, 1336);
+data.setCell(5, 3, 1157);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'Offline_Type_Booking')
+data.setCell(6, 1, 'Branch_Type_Booking')
 data.setCell(6, 2, 'JaintTravels.testCases.LoginPageTest')
-data.setCell(6, 3, 1273);
+data.setCell(6, 3, 1141);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'Branch_Type_Booking')
+data.setCell(7, 1, 'Online_Type_Booking')
 data.setCell(7, 2, 'JaintTravels.testCases.LoginPageTest')
-data.setCell(7, 3, 1082);
+data.setCell(7, 3, 1101);
 window.suiteTableData['Booking_and_Types']= { tableData: data, tableDiv: 'times-div-Booking_and_Types'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Booking_and_Types">
               </div> <!-- times-div-Booking_and_Types -->
             </div> <!-- times-div -->
@@ -442,15 +445,17 @@ return data;
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">Branch_Type_Booking</span>
                 <br/>
+                <span class="ignored-method-name">Offline_Type_Booking</span>
+                <br/>
                 <span class="ignored-method-name">Walkin_Type_Booking</span>
+                <br/>
+                <span class="ignored-method-name">Online_Type_Booking</span>
                 <br/>
                 <span class="ignored-method-name">Branch_Type_Booking</span>
                 <br/>
-                <span class="ignored-method-name">Walkin_Type_Booking</span>
-                <br/>
                 <span class="ignored-method-name">Offline_Type_Booking</span>
                 <br/>
-                <span class="ignored-method-name">Online_Type_Booking</span>
+                <span class="ignored-method-name">Walkin_Type_Booking</span>
                 <br/>
                 <span class="ignored-method-name">Offline_Type_Booking</span>
                 <br/>
@@ -458,11 +463,9 @@ return data;
                 <br/>
                 <span class="ignored-method-name">Online_Type_Booking</span>
                 <br/>
-                <span class="ignored-method-name">Walkin_Type_Booking</span>
-                <br/>
-                <span class="ignored-method-name">Offline_Type_Booking</span>
-                <br/>
                 <span class="ignored-method-name">Online_Type_Booking</span>
+                <br/>
+                <span class="ignored-method-name">Walkin_Type_Booking</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -481,71 +484,71 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">login</span>
-                <span class="method-start">2262 ms</span>
+                <span class="method-start">12419 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">Walkin_Type_Booking</span>
-                <span class="method-start">30312 ms</span>
+                <span class="method-start">44394 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">31651 ms</span>
+                <span class="method-start">45556 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test before">
                 <span class="method-name">setup</span>
-                <span class="method-start">31866 ms</span>
+                <span class="method-start">46639 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">login</span>
-                <span class="method-start">33134 ms</span>
+                <span class="method-start">48297 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">Online_Type_Booking</span>
-                <span class="method-start">60231 ms</span>
+                <span class="method-start">76261 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">62072 ms</span>
+                <span class="method-start">77364 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test before">
                 <span class="method-name">setup</span>
-                <span class="method-start">62254 ms</span>
+                <span class="method-start">77754 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">login</span>
-                <span class="method-start">63522 ms</span>
+                <span class="method-start">78902 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">Offline_Type_Booking</span>
-                <span class="method-start">92013 ms</span>
+                <span class="method-start">106847 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">93291 ms</span>
+                <span class="method-start">108082 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test before">
                 <span class="method-name">setup</span>
-                <span class="method-start">93453 ms</span>
+                <span class="method-start">108388 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">login</span>
-                <span class="method-start">94704 ms</span>
+                <span class="method-start">109964 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">Branch_Type_Booking</span>
-                <span class="method-start">122594 ms</span>
+                <span class="method-start">137888 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">123677 ms</span>
+                <span class="method-start">139030 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

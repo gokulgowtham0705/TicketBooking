@@ -25,9 +25,9 @@ public class ExtentReport implements ITestListener
 		
 		sparkreporter = new ExtentSparkReporter(".\\Reports\\"+repName);
 		
-		sparkreporter.config().setDocumentTitle("EmartReport");
+		sparkreporter.config().setDocumentTitle("TicketSimplify");
 		sparkreporter.config().setReportName("Login");
-		sparkreporter.config().setTheme(Theme.DARK);
+		sparkreporter.config().setTheme(Theme.STANDARD);
 		
 		
 		extent= new ExtentReports();
