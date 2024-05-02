@@ -3,7 +3,6 @@ package JaintTravels.testCases;
 import java.time.Duration;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
@@ -28,8 +27,7 @@ public class baseClass {
        driver.manage().window().maximize();
        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
        logger = LogManager.getLogger(baseClass.class.getName());
-       logger.info("Application Launching");
-       
+      
 	}
 	
 	@AfterTest

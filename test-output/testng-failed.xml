@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Booking and Types]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="WalkIn_Booking_Test(failed)">
+    <classes>
+      <class name="JaintTravels.testCases.LoginPageTest">
+        <methods>
+          <include name="Walkin_Type_Booking"/>
+          <include name="setup"/>
+          <include name="login"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- JaintTravels.testCases.LoginPageTest -->
+    </classes>
+  </test> <!-- WalkIn_Booking_Test(failed) -->
+  <test thread-count="5" name="Online_Booking_Test(failed)">
+    <classes>
+      <class name="JaintTravels.testCases.LoginPageTest">
+        <methods>
+          <include name="Online_Type_Booking"/>
+          <include name="setup"/>
+          <include name="login"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- JaintTravels.testCases.LoginPageTest -->
+    </classes>
+  </test> <!-- Online_Booking_Test(failed) -->
+  <test thread-count="5" name="Offline_Booking_Test(failed)">
+    <classes>
+      <class name="JaintTravels.testCases.LoginPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="login"/>
+          <include name="teardown"/>
+          <include name="Offline_Type_Booking"/>
+        </methods>
+      </class> <!-- JaintTravels.testCases.LoginPageTest -->
+    </classes>
+  </test> <!-- Offline_Booking_Test(failed) -->
   <test thread-count="5" name="Branch_Booking_Test(failed)">
     <classes>
       <class name="JaintTravels.testCases.LoginPageTest">
